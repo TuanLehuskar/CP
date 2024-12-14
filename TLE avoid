@@ -1,0 +1,13 @@
+Most problem (C++) is required solution in 1s
+The number of operations that CPU can execute usually 100M (100.000.000 = 10^8)
+
+Given an array with size N = 10^4. 
+If we want to build a O(N^2) solution, it will take 10^8 operations and this may pass.
+But if N = 10^6, and we apply O(N^2) solution, it will take 10^12 operations
+If in 1s, CPU can execute 10^8 operations then with 10^12 operations, it takes 10^4 (10^12/10^8) seconds.
+====> Time Limited Exceed
+
+So which complexity will pass N = 10^6?
+We can try applying better complexity with O(Nlog(N)).
+With N = 10^6 then it takes 10^6*(Log(10^6)) ~ 10^7 operations, so it will work.
+10^8 operations is in 1s => 10^7 operations is in 0.1s. 
