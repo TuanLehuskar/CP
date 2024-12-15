@@ -1,0 +1,7 @@
+Binary Search Tree is a node-based binary tree Data Structure:
+- Each node has at most 2 children, referred to left child and right child.
+- For any node:
+  -- The value of all nodes in left subtree is less than the value of the node.
+  -- The value of all nodes in right subtree is greater than the value of the node.
+
+Map using balanced BST
